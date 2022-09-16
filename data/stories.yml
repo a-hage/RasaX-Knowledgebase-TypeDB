@@ -1,0 +1,221 @@
+version: "2.0"
+stories:
+- story: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: goodbyerasa --version
+  steps:
+  - intent: bye
+  - action: utter_goodbye
+
+- story: query entities
+  steps:
+  - intent: query_entities
+  - action: action_query_entities
+  - slot_was_set:
+    - category: null
+
+- story: query attribute
+  steps:
+  - intent: query_attribute
+  - action: action_query_attribute
+  - slot_was_set:
+    - mention: null
+    - bank: N26
+    
+- story: resolve entity
+  steps:
+  - intent: resolve_entity
+  - action: action_resolve_entity
+  - slot_was_set:
+    - mention: null
+    - bank: N26
+    - account: DE76894768662419673111
+
+- story: out of scope
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+
+- story: help
+  steps:
+  - intent: help
+  - action: utter_help
+
+- story: conversation 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_entities
+  - action: action_query_entities
+  - slot_was_set:
+    - entity_type: transaction
+    - listed_items: []
+    - transaction: ""
+  - intent: compare_entities
+  - action: action_compare_entities
+  - intent: query_attribute
+  - action: action_query_attribute
+  - slot_was_set:
+    - mention: null
+    - account: DE89370400440532013000
+  - intent: query_attribute
+  - action: action_query_attribute
+  - intent: bye
+  - action: utter_goodbye
+
+- story: conversation 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_entities
+  - action: action_query_entities
+  - slot_was_set:
+    - entity_type: account
+    - listed_items: []
+    - transaction: ""
+  - intent: compare_entities
+  - action: action_compare_entities
+  - intent: query_attribute
+  - action: action_query_attribute
+  - slot_was_set:
+    - mention: null
+    - transaction: 216
+  - intent: bye
+  - action: utter_goodbye
+
+- story: conversation 3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_attribute
+  - action: action_query_attribute
+  - slot_was_set:
+    - mention: null
+    - card: null
+  - intent: bye
+  - action: utter_goodbye
+
+- story: conversation 4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_attribute
+  - action: action_query_attribute
+  - slot_was_set:
+    - mention: null
+    - person: null
+  - intent: query_entities
+  - action: action_query_entities
+  - intent: compare_entities
+  - action: action_compare_entities
+  - intent: bye
+  - action: utter_goodbye
+
+- story: conversation 5
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_entities
+  - action: action_query_entities
+  - slot_was_set:
+    - entity_type: transaction
+    - listed_items: []
+    - transaction: ""
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+  - intent: query_attribute
+  - action: action_query_attribute
+  - slot_was_set:
+    - mention: null
+    - account: DE89370400440532013000
+  - intent: bye
+  - action: utter_goodbye
+
+- story: conversation 6
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+  - intent: query_attribute
+  - action: action_query_attribute
+  - slot_was_set:
+    - mention: null
+    - person: null
+  - intent: query_entities
+  - action: action_query_entities
+  - intent: compare_entities
+  - action: action_compare_entities
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+  - intent: bye
+  - action: utter_goodbye
+
+- story: conversation 7
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_entities
+  - action: action_query_entities
+  - slot_was_set:
+    - entity_type: account
+    - listed_items: []
+    - account: ""
+  - intent: query_attribute
+  - action: action_query_attribute
+  - slot_was_set:
+    - mention: null
+    - transaction: 26
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+  - intent: bye
+  - action: utter_goodbye
+
+- story: conversation 8
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_entities
+  - action: action_query_entities
+  - slot_was_set:
+    - entity_type: transaction
+    - listed_items: []
+    - transaction: ""
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+  - intent: help
+  - action: utter_help
+  - intent: query_attribute
+  - action: action_query_attribute
+  - slot_was_set:
+    - mention: null
+    - account: DE89370400440532013000
+  - intent: query_attribute
+  - action: action_query_attribute
+  - intent: bye
+  - action: utter_goodbye
+
+- story: conversation 9
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+  - intent: help
+  - action: utter_help
+  - intent: query_entities
+  - action: action_query_entities
+  - slot_was_set:    
+    - entity_type: transaction
+    - listed_items: []
+    - transaction: ""
+  - intent: query_attribute
+  - action: action_query_attribute
+  - slot_was_set:      
+    - mention: null
+    - account: DE89370400440532013000
+  - intent: bye
+  - action: utter_goodbye
