@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # got to the projects directory
-cd "/home/dev/rasaProjects/knowledgebase"
+cd "/home/ahage/rasaProjects/knowledgebase"
 
 # activate the virtuell environment
 source "venv/bin/activate"
