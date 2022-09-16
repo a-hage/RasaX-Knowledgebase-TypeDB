@@ -35,7 +35,7 @@ class GraphDatabase(KnowledgeBase):
     sure to have the graph database set up and the TypeDB server running.
     """
 
-    def __init__(self, uri: Text = "10.210.1.151:1729", keyspace: Text = "banking"):
+    def __init__(self, uri: Text = "127.0.0.1:1729", keyspace: Text = "banking"):
         self.uri = uri
         self.keyspace = keyspace
         self.me = "mitchell.gillis@t-online.de"
