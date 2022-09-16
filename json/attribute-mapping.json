@@ -1,0 +1,232 @@
+[
+    {
+       "_key":"1",
+       "mapping_key":"city",
+       "mapping_value":"headquarters"
+    },
+    {
+       "_key":"2",
+       "mapping_key":"headquarter",
+       "mapping_value":"headquarters"
+    },
+    {
+       "_key":"3",
+       "mapping_key":"headquarters",
+       "mapping_value":"headquarters"
+    },
+    {
+       "_key":"4",
+       "mapping_key":"HQ",
+       "mapping_value":"headquarters"
+    },
+    {
+       "_key":"5",
+       "mapping_key":"main office",
+       "mapping_value":"headquarters"
+    },
+    {
+       "_key":"6",
+       "mapping_key":"email",
+       "mapping_value":"email"
+    },
+    {
+       "_key":"7",
+       "mapping_key":"gender",
+       "mapping_value":"gender"
+    },
+    {
+       "_key":"8",
+       "mapping_key":"How much money",
+       "mapping_value":"balance"
+    },
+    {
+       "_key":"9",
+       "mapping_key":"how much",
+       "mapping_value":"balance"
+    },
+    {
+       "_key":"10",
+       "":"money",
+       "mapping_value":"balance"
+    },
+    {
+       "_key":"11",
+       "mapping_key":"cash",
+       "mapping_value":"balance"
+    },
+    {
+       "_key":"12",
+       "mapping_key":"english website",
+       "mapping_value":"english-website"
+    },
+    {
+       "_key":"13",
+       "mapping_key":"english mobile app",
+       "mapping_value":"english-mobile-app"
+    },
+    {
+       "_key":"14",
+       "mapping_key":"residents",
+       "mapping_value":"allowed-residents"
+    },
+    {
+       "_key":"15",
+       "mapping_key":"free accounts",
+       "mapping_value":"free-accounts"
+    },
+    {
+       "_key":"16",
+       "mapping_key":"free worldwide withdrawals",
+       "mapping_value":"free-worldwide-withdrawals"
+    },
+    {
+       "_key":"17",
+       "mapping_key":"english customer service",
+       "mapping_value":"english-customer-service"
+    },
+    {
+       "_key":"18",
+       "mapping_key":"english customer support",
+       "mapping_value":"english-customer-service"
+    },
+    {
+       "_key":"19",
+       "mapping_key":"category",
+       "mapping_value":"category"
+    },
+    {
+       "_key":"20",
+       "mapping_key":"execution date",
+       "mapping_value":"execution-date"
+    },
+    {
+       "_key":"21",
+       "mapping_key":"amount",
+       "mapping_value":"amount"
+    },
+    {
+       "_key":"22",
+       "mapping_key":"reference",
+       "mapping_value":"reference"
+    },
+    {
+       "_key":"23",
+       "mapping_key":"signed",
+       "mapping_value":"sign-date"
+    },
+    {
+       "_key":"24",
+       "mapping_key":"balance",
+       "mapping_value":"balance"
+    },
+    {
+       "_key":"25",
+       "mapping_key":"account type",
+       "mapping_value":"account-type"
+    },
+    {
+       "_key":"26",
+       "mapping_key":"opened",
+       "mapping_value":"opening-date"
+    },
+    {
+       "_key":"27",
+       "mapping_key":"account-number",
+       "mapping_value":"account-number"
+    },
+    {
+       "_key":"28",
+       "mapping_key":"account number",
+       "mapping_value":"account-number"
+    },
+    {
+       "_key":"29",
+       "mapping_key":"name",
+       "mapping_value":"name"
+    },
+    {
+       "_key":"30",
+       "mapping_key":"country",
+       "mapping_value":"country"
+    },
+    {
+       "_key":"31",
+       "mapping_key":"email",
+       "mapping_value":"email"
+    },
+    {
+       "_key":"32",
+       "mapping_key":"e mail",
+       "mapping_value":"email"
+    },
+    {
+       "_key":"33",
+       "mapping_key":"e-mail",
+       "mapping_value":"email"
+    },
+    {
+       "_key":"34",
+       "mapping_key":"last name",
+       "mapping_value":"last-name"
+    },
+    {
+       "_key":"35",
+       "mapping_key":"first name",
+       "mapping_value":"first-name"
+    },
+    {
+       "_key":"36",
+       "mapping_key":"gender",
+       "mapping_value":"gender"
+    },
+    {
+       "_key":"37",
+       "mapping_key":"phone-number",
+       "mapping_value":"phone-number"
+    },
+    {
+       "_key":"38",
+       "mapping_key":"phone number",
+       "mapping_value":"phone-number"
+    },
+    {
+       "_key":"39",
+       "mapping_key":"female",
+       "mapping_value":"gender"
+    },
+    {
+       "_key":"40",
+       "mapping_key":"male",
+       "mapping_value":"gender"
+    },
+    {
+       "_key":"41",
+       "mapping_key":"name on card",
+       "mapping_value":"name-on-card"
+    },
+    {
+       "_key":"42",
+       "mapping_key":"expiry date",
+       "mapping_value":"expiry date"
+    },
+    {
+       "_key":"43",
+       "mapping_key":"expiration",
+       "mapping_value":"expiry date"
+    },
+    {
+       "_key":"44",
+       "mapping_key":"created",
+       "mapping_value":"created-date"
+    },
+    {
+       "_key":"45",
+       "mapping_key":"card number",
+       "mapping_value":"card-number"
+    },
+    {
+       "_key":"46",
+       "mapping_key":"card-number",
+       "mapping_value":"card-number"
+    }
+ ]
